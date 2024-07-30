@@ -1,0 +1,54 @@
+.countryPage {
+  height: 600px;
+  .pageTitle {
+    display: flex;
+    width: 100%;
+
+    .title {
+      width: 100%;
+      text-align: center;
+    }
+    .backBtn {
+      align-self: center;
+    }
+
+  }
+  .card {
+    height: 100%;
+    .cardContent {
+      display: flex;
+      gap: 50px;
+      .countryName {
+
+      }
+      .countryInfo {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        gap: 50px;
+        .capital {
+          display: flex;
+          gap: 10px;
+          .icon {
+            font-size: 36px;
+          }
+        }
+        .population {
+          display: flex;
+          gap: 10px;
+          .icon {
+            font-size: 36px;
+          }
+          gap: 10px;
+        }
+        .area {
+          display: flex;
+          gap: 10px;
+          .icon {
+            font-size: 36px;
+          }
+        }
+      }
+    }
+  }
+}
